@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: snake - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/snake.res" /d "NDEBUG" /d "_AFXDLL" "G:\My_prg\snake\snake.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP7011.TMP" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/snake.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"G:\My_prg\snake\ChildView.cpp"
+"G:\My_prg\snake\MainFrm.cpp"
+"G:\My_prg\snake\snake.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP7011.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP7012.TMP" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/snake.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"G:\My_prg\snake\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP7012.TMP" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/snake.pdb" /machine:I386 /out:"Release/snake.exe"  .\Release\ChildView.obj .\Release\MainFrm.obj .\Release\snake.obj .\Release\StdAfx.obj .\Release\snake.res "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChildView.cpp
+MainFrm.cpp
+snake.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+snake.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
